@@ -6,7 +6,7 @@ Wait(0)
 		drawTxt2(0.5, 0.100, 0.9,0.9,0.5, "Welcome to bla bla bla", 250, 250, 250, 255)
 		drawTxt2(0.5, 0.200, 0.9,0.9,0.5, "line2", 250, 250, 250, 255)
 		drawTxt2(0.5, 0.300, 0.9,0.9,0.5, "Line3", 250, 250, 250, 255)
-
+		drawTxt2(0.5, 0.400, 0.9,0.9,0.5, "Press Space To Close", 250, 250, 250, 255)
 until IsControlJustPressed(0,0xD9D0E1C0)
 end)
 	function drawTxt2(x,y ,width,height,scale, text, r,g,b,a)
